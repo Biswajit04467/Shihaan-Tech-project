@@ -1,0 +1,656 @@
+body {
+  background: url(./public/blue-gradient-blur-phone-wallpaper-vector/v904-nunny-011-f.jpg);
+ 
+ 
+
+}
+
+.your-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.your-logo-wrapper {
+  position: absolute;
+  height: 94.74%;
+  width: 70.64%;
+  top: 2.63%;
+  right: 0;
+  bottom: 2.63%;
+  left: 29.36%;
+}
+
+.logo-child {
+  position: absolute;
+  top: calc(50% - 19px);
+  left: calc(50% - 86.35px);
+  border-radius: var(--br-81xl);
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+}
+
+.logo {
+  width: 172.7px;
+  height: 38px;
+  position: relative;
+  display: none;
+  z-index: 4;
+}
+
+.header {
+  height: 288.2px;
+  width: 288.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: -280.2px;
+  right: 145.8px;
+  border-radius: 50%;
+  background-color: var(--color-pink);
+  filter: blur(34px);
+}
+
+.about-frame-child {
+  height: 82px;
+  width: 1266px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray);
+  backdrop-filter: blur(30px);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+
+.shihaan-transparent-logo-1-icon {
+  height: 41px;
+  width: 132px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.home {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.home-services-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 11px 0 0;
+
+}
+
+.home-service-about-frame li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.home-service-about-frame li a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-service-about-frame li a:hover {
+  color: rgb(161, 159, 159);
+}
+
+.service {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.home-services-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+}
+
+.about {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.home-services-frame2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+}
+
+.contact {
+  z-index: 2;
+}
+
+.contact,
+.register {
+  position: relative;
+  font-weight: 600;
+}
+
+.home-service-about-frame,
+.register-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.register-text {
+  width: 98px;
+  border-radius: var(--br-81xl);
+  background-color: rgb(31, 156, 41);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.home-service-about-frame {
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  max-width: 100%;
+}
+
+.about-frame,
+.home-frame {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+
+}
+
+.about-frame {
+  flex: 1;
+  border-radius: 60px;
+  background-color: var(--color-gray);
+  backdrop-filter: blur(30px);
+  border: 1px solid var(--color-white);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px 0px 30px;
+  gap: 20px;
+  z-index: 1;
+
+
+}
+
+.home-frame {
+  width: 1306px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-josefin-sans);
+}
+
+
+.rectangle-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray);
+  backdrop-filter: blur(30px);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  
+}
+
+
+.get-started {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-josefin-sans);
+  color: #f5f0f6;
+  text-align: left;
+}
+
+.info-text {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl);
+  background-color: var(--color-black);
+  position: absolute;
+  top: 440px;
+  left: 50px;
+  border-radius: var(--br-81xl);
+  width: 244px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.info-text:hover {
+  background-color: #333;
+}
+
+.dolor-sit-amet,
+.lorem-ipsum {
+  margin: 0;
+}
+
+.dolor-sit-amet {
+  font-size: 1.3rem;
+}
+
+.lorem-ipsum-dolor-container1 {
+  width: 100%;
+}
+
+.lorem-ipsum-dolor-container {
+  margin: 0;
+  position: absolute;
+  top: 71px;
+  left: 69px;
+  font-size: inherit;
+  line-height: 70px;
+  font-weight: 800;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.shihaan-tech-envisions {
+  margin: 0;
+}
+
+.get-started3 {
+  text-decoration: underline;
+}
+
+.get-started2 {
+  color: inherit;
+}
+
+.get-started1 {
+  margin: 0;
+}
+
+.shihaan-tech-envisions-container1 {
+  width: 100%;
+}
+
+.shihaan-tech-envisions-container {
+  position: absolute;
+  top: 228px;
+  left: 69px;
+  font-size: var(--font-size-lg);
+  line-height: 40px;
+  font-weight: 500;
+  color: var(--color-white);
+  color: #373737;
+  display: flex;
+  align-items: center;
+  width: 577.7px;
+  z-index: 2;
+}
+
+.frame-child {
+  position: absolute;
+  top: 230.1px;
+  left: 146.7px;
+  border-radius: 50%;
+  background-color: var(--color-navajowhite);
+  filter: blur(34px);
+  width: 242.2px;
+  height: 242.2px;
+}
+
+.background-ellipse-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+  
+
+}
+
+img.background-ellipse-icon {
+  animation: Biswamotion 5s linear infinite;
+  
+
+}
+
+@keyframes Biswamotion {
+
+  0%,
+  100% {
+    transform: translateX(-30%);
+  }
+
+  50% {
+    transform: translateX(-40%);
+  }
+}
+
+
+.ellipse-parent,
+.service-frame {
+  position: absolute;
+  top: 23px;
+  left: 854px;
+  width: 389px;
+  height: 490px;
+}
+
+.service-frame {
+  height: 242.2px;
+  width: 242.2px;
+  margin: 0 !important;
+  top: -312.1px;
+  left: -567.7px;
+  border-radius: 50%;
+  background-color: var(--color-pink);
+  filter: blur(34px);
+}
+
+.service-frame-wrapper {
+  position: absolute;
+  top: 214px;
+  left: 633px;
+  width: 0;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.rectangle-frame-parent {
+  align-self: stretch;
+  height: 537px;
+  position: relative;
+}
+
+.register-text1 {
+  align-self: stretch;
+  width: 242.2px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-navajowhite);
+  filter: blur(34px);
+}
+
+.about-frame1 {
+  width: 532px;
+  height: 242px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.glassmorphism-landing-page,
+.settings-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.settings-frame {
+  width: 1306px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  font-size: 48px;
+  color: #373737;
+  font-family: var(--font-montserrat);
+}
+
+.glassmorphism-landing-page {
+  width: 100%;
+  height: 768px;
+  /* background-image: url(./public/bg11.jpg); */
+  background-image: url(./public/Brush_technology_\(2\).jpg);
+  /* background-image: url(./public/bg6.jpg); */
+
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  padding: 55px 0 0;
+  gap: var(--gap-15xl);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  letter-spacing: normal;
+  font-size: 24px;
+  color: transparent;
+  font-family: var(--font-poppins);
+
+}
+
+/* About  */
+
+#about {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-details {
+  width: 70vw;
+  margin: auto;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray);
+  backdrop-filter: blur(30px);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 1;
+  box-shadow: 2px 2px 2px grey;
+}
+
+
+.btn-container {
+  display: flex;
+  margin-bottom: 1.2rem;
+
+}
+
+.about-btn {
+  color: rgb(54, 53, 53);
+  border: none;
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: rgba(241, 241, 244, 0.352);
+  transition: background-color 0.3s ease;
+  backdrop-filter: blur(30px); /* Adjust the blur value as needed */
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Use a transparent border for a glassy effect */
+  box-shadow: 2px 2px 2px rgb(126, 124, 124); /* Adjust shadow values for a glassy look */
+}
+
+.about-btn:hover {
+  background-color: rgba(12, 22, 73, 0.721);
+  color: white;
+  border:1px solid white;
+  box-shadow: 2px 2px 2px grey;
+  
+}
+
+.active{
+  background-color: rgba(12, 22, 73, 0.721);
+  color: white;
+  border:1px solid white;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.btn-container {
+  gap: 6rem;
+
+}
+
+/* Transformation area  */
+#transformation {
+  user-select: none;
+  height: 60vh;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+#transformation img {
+  height: 20rem;
+  border-radius: 0px 21px 21px 0px;
+}
+
+.content-area {
+  display: flex;
+
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray);
+  backdrop-filter: blur(30px);
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px grey;
+  border: 1px solid var(--color-white);
+
+
+}
+
+.text-area {
+
+  background: linear-gradient(150deg, rgb(129, 199, 230), rgb(6, 30, 66));
+  border-radius: 21px 0px 0px 19px;
+  max-width: 350px;
+  padding: 2rem;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(71, 70, 70);
+
+}
+
+
+/* domain */
+#domain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 100px auto;
+  height: 45vh;
+}
+
+.domain-details {
+  display: flex;
+  align-items: center;
+  ;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.domain-details h1 {
+  font-size: 1.7rem;
+}
+
+.domain-box {
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray);
+  backdrop-filter: blur(30px);
+  box-sizing: border-box;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 4px grey;
+  padding: 10px;
+  margin: 2rem auto;
+  max-width: 50rem;
+  min-height: 20rem;
+  flex: 1;
+  color: rgba(4, 29, 79, 0.837);
+
+    border-radius: var(--br-xl);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+
+.domain-footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.domain-container {
+  position: relative;
+  top: 5rem;
+  height: 90vh;
+}
+
+.desc h1 {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.img-area{
+  background-color: #fefdfe;
+  border-radius: 21px;
+}
+
+
+.settings-frame {
+  /* Your existing styles */
+
+  /* Add the following rules to set the text color to white */
+  color: rgb(202, 190, 190);
+}
+
+.settings-frame h1,
+.settings-frame h2,
+.settings-frame h3,
+.settings-frame h4,
+.settings-frame h5,
+.settings-frame h6,
+.settings-frame p,
+.settings-frame a {
+  color: rgb(232, 249, 207); /* Set the text color to white for headings, paragraphs, and links */
+  text-shadow: 2px 2px 2px grey;
+}
+
+
+
+.colormy{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}

@@ -1,0 +1,240 @@
+@media screen and (max-width: 1200px) {
+  .about-frame {
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .lorem-ipsum-dolor-container {
+    font-size: 38px;
+    line-height: 56px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .home-service-about-frame {
+    display: none;
+    gap: var(--gap-23xl);
+  }
+
+  .glassmorphism-landing-page {
+    gap: var(--gap-15xl);
+  }
+   
+  body{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  #transformation {
+    width: 80%;
+    padding: 0 20px; /* Adjust the padding as needed */
+
+  }
+
+  .content-area {
+    flex-direction: column;
+    align-items: center;
+
+   
+  }
+
+  .text-area {
+    border-radius: var(--br-xl);
+    max-width: 100%;
+    border-radius: 0;
+    
+  }
+
+  #transformation img {
+    width: 100%;
+    border-radius: var(--br-xl);
+  }
+
+/* domain  */
+  #domain {
+    margin-top: 40rem;
+    width: 100%;
+    padding: 0 20px; /* Adjust the padding as needed */
+  }
+
+  .domain-container {
+    top: 2rem; /* Adjust the spacing from the top as needed */
+    height: auto; /* Allow the container to adjust its height */
+  }
+
+  .domain-details {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .domain-box {
+    max-width: 90%;
+    margin: 1rem 0;
+    border-radius: var(--br-xl);
+  }
+
+  .domain-footer {
+    margin-top: 1rem;
+    margin: auto;
+    width: 80%;
+    align-items: center;
+   
+  }
+
+  .desc h1 {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+  }
+  .content-area{
+    background-color: #fff;
+  }
+
+  .text-area{
+    border-radius: 19px 19px 0px 0px;
+  }
+
+
+  /* About   */
+
+  #about {
+    height: auto; /* Allow the container to adjust its height */
+    padding: 20px; /* Add padding as needed */
+    margin: auto;
+  }
+
+  .about-details {
+    width: 100%;
+    border-radius: var(--br-xl);
+    margin: 0; /* Reset margin */
+  }
+
+  .btn-container {
+    
+    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 0.7rem;
+  }
+
+  .about-btn {
+    width: 80%; /* Make buttons full width */
+    margin-bottom: 1rem; /* Adjust margin as needed */
+  }
+
+
+  .settings-frame {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .settings-frame h1 {
+    width: 60%;
+    height: auto;
+    margin-bottom: 2rem;
+   
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+
+  .settings-frame p {
+   
+    font-size: 1.1rem;
+    max-width:22rem;
+    
+    /* Adjust line height for smaller screens */
+  }
+ p.dolor-sit-amet {
+   height: fit-content;
+   font-size: 1rem;
+    
+ }
+
+.shihaan-tech-envisions-container1{
+    height: fit-content;
+}
+
+.rectangle-frame-parent{
+    
+}
+
+
+ 
+
+
+}
+
+@media screen and (max-width: 450px) {
+  .your-logo {
+    font-size: 19px;
+  }
+
+  .lorem-ipsum-dolor-container {
+    font-size: 29px;
+    line-height: 42px;
+  }
+
+
+  
+}
+
+
+
+/* Media query for hamburger menu on smaller screens */
+@media screen and (max-width: 767px) {
+  .home-service-about-frame {
+    display: none; /* Hide the regular menu items */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-gray); /* Adjust the background color as needed */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  .home-service-about-frame ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .home-service-about-frame li {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .home-service-about-frame a {
+    text-decoration: none;
+    color: var(--color-white); /* Adjust the text color as needed */
+  }
+
+  /* Style the hamburger menu icon */
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    right: 15px;
+    z-index: 20;
+    user-select: none;
+  }
+
+  .menu-icon span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: var(--color-white); /* Adjust the color as needed */
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  /* Rotate the first and third lines to create the "X" icon */
+  .menu-icon.open span:first-child {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .menu-icon.open span:last-child {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
